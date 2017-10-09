@@ -20,6 +20,8 @@ public class Problem7_15 {
 		}
 	}
 	
+	// JA: It is simpler to just stored not repeated 
+	// JA: numbers in the duplicates array
 	public static int[] eliminateDuplicates(int[] list) {
 		boolean isDuplicate;
 		int[] duplicates = new int[list.length];
