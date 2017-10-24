@@ -24,6 +24,12 @@ public class Problem9_3 {
 
 		date1.setTime(1000000000);
 		System.out.println(date1.toString());
+		
+		// JA
+		date1.setTime(10000000000L);
+		System.out.println(date1.toString());	
+		date1.setTime(100000000000L);
+		System.out.println(date1.toString());		
 	}
 
 }

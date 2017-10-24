@@ -50,7 +50,7 @@ public class Account {
 	}
 	
 	public double getMonthlyInterest() {
-		return balance * (getMonthlyInterestRate() / 100);
+		return balance * getMonthlyInterestRate(); //JA
 	}
 	
 	public void withdraw(double withdrawAmount) {
