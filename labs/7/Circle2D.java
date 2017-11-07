@@ -35,6 +35,7 @@ public class Circle2D {
 		return Math.PI * (radius * 2);
 	}
 	
+	// JA: You should really use a distance() method for this
 	public boolean contains(double x, double y) {
 		return x >= (-this.x / 2) && x <= (this.x / 2) && y >= (-this.x / 2) && y <= (this.x / 2);
 	}

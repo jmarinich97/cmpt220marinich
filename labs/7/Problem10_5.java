@@ -20,7 +20,7 @@ public class Problem10_5 {
         System.out.println("Enter a positive integer: ");
         int num = input.nextInt();
 
-        int size = stack.getSize();
+        int size = stack.getSize(); // JA: Where are you calculating the factors?
         System.out.println("The smallest prime factors of " + num + " are: ");
         for (int i = 0; i < size; i++) {
             System.out.print(stack.pop() + " ");

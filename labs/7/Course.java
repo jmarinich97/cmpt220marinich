@@ -43,7 +43,7 @@ public class Course {
 	// Had trouble with this method
 	public void dropStudent(String student) {
 		String[] temp = new String[students.length - 1];
-		for (int i = 0; i < temp.length; i++) {
+		for (int i = 0; i < temp.length; i++) { //JA: Your loop should only go up to numberOfStudents
 			if (students[i].equals(student)) {
 				continue;
 			}
