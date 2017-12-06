@@ -17,7 +17,7 @@ public class Problem12_11 {
             	System.exit(1);
         }
 
-        String space = "";
+        String space = ""; // JA: Here you need to populate the file contents
         
         space.replaceAll(args[0], "");
         try {
